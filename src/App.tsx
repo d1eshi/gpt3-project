@@ -1,13 +1,21 @@
 import './App.scss'
-import { Navbar } from './components'
+import { Blog, Brand, CTA, FAQGPT3, Features, Footer, Header, Navbar, Possibility } from './components'
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <h1>Let's build Something amazing with GPT-3 OpenAI </h1>
-      <p>You need</p>
-    </>
+    <div className='App'>
+      <div className='gradient__bg'>
+        <Navbar />
+        <Header />
+      </div>
+      <Brand />
+      <FAQGPT3 />
+      <Features />
+      <Possibility />
+      <CTA />
+      <Blog />
+      <Footer />
+    </div>
   )
 }
 
